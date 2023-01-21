@@ -1,0 +1,9 @@
+body{
+    background-image: url("Bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#room_nums{
+    width: 1000px;
+    background-color: antiquewhite;
+}

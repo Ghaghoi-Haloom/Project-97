@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <link rel="icon" href="Title Logo.png" type="image/png">
+    <title> Don Bosco Liluah | Community </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <script src="login.js"></script>
+
+</head>
+<body>
+    <div class="main_div" id="container">
+        <center>
+            <h2><kbd>Welcome to Don Bosco Liluah's Community!</kbd></h2>
+        </center>
+        <span id="main" style="padding-left: 250px; display: flex;">
+            <br>
+            <div id="img">
+                <img src="login_img.gif" height="650px" width="700px">
+            </div>
+            <center>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2><b>Sign Up!</b></h2>
+                <br>
+                <br>
+                <input id="user_name" type="text" placeholder="Username" maxlength="20">
+                <br>
+                <br>
+                <button class="btn btn-primary" onclick="addUser();">Create Account!</button>
+                <br>
+                <br>
+                <button id="next" style="visibility: hidden;" class="btn btn-primary" onclick="nextPage();">Next Page</button>
+            </center>
+        </span>
+    </div>
+</body>
+
+</html>

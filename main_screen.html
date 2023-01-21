@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <link rel="icon" href="Title Logo.png" type="image/png">
+    <title> Don Bosco Liluah | Community </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main_screen.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <script src="main_screen.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <center>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2><b><kbd>CREATE A ROOM!</kbd></b></h2>
+                <br>
+                <br>
+                <span>
+                    <h3>Create Room ID: <input type="text" placeholder="Room ID" maxlength="5" id="room_ID" type="number"></h3>
+                    <button id="addRoom" onclick="newRoom()" class="btn btn-primary">Add Room</button>
+                </span>
+            </center>
+        </div>
+        <br>
+        <br>
+        <div>
+            <center>
+                <h2><b>TRENDING ROOMS!(Click on the one you want to enter)</b></h2>
+                <br>
+                <br>
+                <br>
+                <div id="room_nums"></div>
+            </center>
+        </div>
+    </div>
+</body>
+
+</html>
